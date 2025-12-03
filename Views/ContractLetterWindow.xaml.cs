@@ -17,6 +17,7 @@ namespace AMS2ChEd
         private string playerName;
         private string playerDriverId;
         private string playerNationality;
+        private string replacedDriverId;
         private string teamId;
 
         public ContractLetterWindow(
@@ -41,6 +42,7 @@ namespace AMS2ChEd
             this.playerDriverId = playerDriverId;
             this.playerNationality = playerNationality;
             this.teamId = teamId;
+            this.replacedDriverId = replacedDriverId;
 
             // Check if player is hired
             var driverHirer = new DriverHirer();
@@ -421,17 +423,14 @@ namespace AMS2ChEd
             var playerTeam = clonedSeason.Teams.FirstOrDefault(t => t.TeamId == playerTeamId);
             if (playerTeam != null)
             {
-                // Determine which driver to replace (the one that was selected)
-                string replacedDriverId = null;
-
                 // Check if player is replacing driver 1 or driver 2
-                if (playerTeam.Driver1Contract.Replaceable)
+                if (playerTeam.Driver1Contract.DriverId == replacedDriverId)
                 {
                     replacedDriverId = playerTeam.Driver1Contract.DriverId;
                     playerTeam.Driver1Contract.DriverId = playerDriverId;
                     playerTeam.Driver1Contract.Replaceable = false; // Player is not replaceable
                 }
-                else if (playerTeam.Driver2Contract.Replaceable)
+                else if (playerTeam.Driver2Contract.DriverId == replacedDriverId)
                 {
                     replacedDriverId = playerTeam.Driver2Contract.DriverId;
                     playerTeam.Driver2Contract.DriverId = playerDriverId;

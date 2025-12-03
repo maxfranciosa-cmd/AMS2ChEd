@@ -519,11 +519,14 @@
   "absences": [
     {
       "race_id": 1,
-      "driver_out": "damon_hill",
+      "teamId": "williams",
+      "driver_out": "hill_damon",
       "driver_in": "fisichella_giancarlo",
+
       "newDriverNumber": 5,
       "chainedAbsence": {
         "race_id": 1,
+        "teamId": "minardi",
         "driver_out": "fisichella_giancarlo",
         "driver_in": "marques_tarso",
         "newDriverNumber": 21
@@ -531,54 +534,63 @@
     },
     {
       "race_id": 1,
+      "teamId": "minardi",
       "driver_out": "lamy_pedro",
       "driver_in": "lavaggi_giovanni",
-      "newDriverNumber": 21
+      "newDriverNumber": 20
     },
     {
       "race_id": 2,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "marques_tarso",
       "newDriverNumber": 21
     },
     {
       "race_id": 3,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "marques_tarso",
       "newDriverNumber": 21
     },
     {
       "race_id": 11,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
     },
     {
       "race_id": 12,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
     },
     {
       "race_id": 13,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
     },
     {
       "race_id": 14,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
     },
     {
       "race_id": 15,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
     },
     {
       "race_id": 16,
+      "teamId": "minardi",
       "driver_out": "fisichella_giancarlo",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 21
