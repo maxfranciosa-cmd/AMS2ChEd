@@ -1,0 +1,56 @@
+{
+  "teams": [
+    {
+      "team_id": "williams",
+      "team_name": "Williams"
+    },
+    {
+      "team_id": "ferrari",
+      "team_name": "Ferrari"
+    },
+    {
+      "team_id": "benetton",
+      "team_name": "Benetton"
+    },
+    {
+      "team_id": "mclaren",
+      "team_name": "McLaren"
+    },
+    {
+      "team_id": "jordan",
+      "team_name": "Jordan"
+    },
+    {
+      "team_id": "sauber",
+      "team_name": "Sauber"
+    },
+    {
+      "team_id": "ligier_prost",
+      "team_name": "Ligier / Prost"
+    },
+    {
+      "team_id": "tyrrell",
+      "team_name": "Tyrrell"
+    },
+    {
+      "team_id": "arrows",
+      "team_name": "Arrows"
+    },
+    {
+      "team_id": "minardi",
+      "team_name": "Minardi"
+    },
+    {
+      "team_id": "forti",
+      "team_name": "Forti"
+    },
+    {
+      "team_id": "stewart",
+      "team_name": "Stewart"
+    },
+    {
+      "team_id": "lola_mastercard",
+      "team_name": "Lola"
+    }
+  ]
+}

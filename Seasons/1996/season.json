@@ -1,0 +1,587 @@
+{
+  "season": 1996,
+  "pointsSystem": {
+    "1": 10,
+    "2": 6,
+    "3": 4,
+    "4": 3,
+    "5": 2,
+    "6": 1
+  },
+  "races": [
+    { "race_id": 1, "race_name": "Australia", "race_date": "1996-03-10", "circuit": "Albert Park" },
+    { "race_id": 2, "race_name": "Brazil", "race_date": "1996-03-31", "circuit": "Interlagos" },
+    { "race_id": 3, "race_name": "Argentina", "race_date": "1996-04-07", "circuit": "Autódromo Oscar Alfredo Gálvez" },
+    { "race_id": 4, "race_name": "Europe", "race_date": "1996-04-28", "circuit": "Nürburgring" },
+    { "race_id": 5, "race_name": "San Marino", "race_date": "1996-05-05", "circuit": "Imola" },
+    { "race_id": 6, "race_name": "Monaco", "race_date": "1996-05-19", "circuit": "Monte Carlo" },
+    { "race_id": 7, "race_name": "Spain", "race_date": "1996-06-02", "circuit": "Circuit de Barcelona–Catalunya" },
+    { "race_id": 8, "race_name": "Canada", "race_date": "1996-06-16", "circuit": "Circuit Gilles Villeneuve" },
+    { "race_id": 9, "race_name": "France", "race_date": "1996-06-30", "circuit": "Magny-Cours" },
+    { "race_id": 10, "race_name": "Great Britain", "race_date": "1996-07-14", "circuit": "Silverstone" },
+    { "race_id": 11, "race_name": "Germany", "race_date": "1996-07-28", "circuit": "Hockenheimring" },
+    { "race_id": 12, "race_name": "Hungary", "race_date": "1996-08-11", "circuit": "Hungaroring" },
+    { "race_id": 13, "race_name": "Belgium", "race_date": "1996-08-25", "circuit": "Spa-Francorchamps" },
+    { "race_id": 14, "race_name": "Italy", "race_date": "1996-09-08", "circuit": "Monza" },
+    { "race_id": 15, "race_name": "Portugal", "race_date": "1996-09-22", "circuit": "Estoril" },
+    { "race_id": 16, "race_name": "Japan", "race_date": "1996-10-13", "circuit": "Suzuka" }
+  ],
+  "teams": [
+    {
+      "team_id": "williams",
+      "team_name": "Williams Renault",
+      "team_principal": "Frank Williams",
+      "reputation": "TOP_TEAM",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0,
+        "defending": 0,
+        "fuel_management": 0,
+        "qualifying_skill": 0,
+        "race_skill": 0,
+        "tyre_management": 0
+      },
+      "driver1_contract": {
+        "driver_id": "hill_damon",
+        "races": 16,
+        "replaceable": false,
+        "drivernumber": 5
+      },
+      "driver2_contract": {
+        "driver_id": "villeneuve_jacques",
+        "races": 32,
+        "replaceable": true,
+        "drivernumber": 6
+      },
+      "base_livery_driver1": "5_Williams.dds",
+      "base_livery_driver2": "6_Williams.dds",
+      "helmet_sponsors": "Williams_helmet_sponsors.dds",
+      "visor_sponsors": "Williams_visor_sponsors.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "5_Williams_France.dds",
+          "driver2_livery": "6_Williams_France.dds",
+          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "5_Williams_NT.dds",
+          "driver2_livery": "6_Williams_NT.dds",
+          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "5_Williams_NT.dds",
+          "driver2_livery": "6_Williams_NT.dds",
+          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "ferrari",
+      "team_name": "Ferrari",
+      "team_principal": "Jean Todt",
+      "reputation": "TOP_TEAM",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.05,
+        "defending": 0.05,
+        "fuel_management": 0.05,
+        "qualifying_skill": 0.05,
+        "race_skill": 0.05,
+        "tyre_management": 0.05
+      },
+      "driver1_contract": {
+        "driver_id": "schumacher_michael",
+        "races": 32,
+        "replaceable": false,
+        "drivernumber": 1
+      },
+      "driver2_contract": {
+        "driver_id": "irvine_eddie",
+        "races": 32,
+        "replaceable": true,
+        "drivernumber": 2
+      },
+      "base_livery_driver1": "1_ferrari.dds",
+      "base_livery_driver2": "2_ferrari.dds",
+      "helmet_sponsors": "ferrari_helmet_sponsors.dds",
+      "visor_sponsors": "ferrari_visor_sponsors.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "1_ferrari_France.dds",
+          "driver2_livery": "2_ferrari_France.dds",
+          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "1_ferrari_NT.dds",
+          "driver2_livery": "2_ferrari_NT.dds",
+          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "1_ferrari_NT.dds",
+          "driver2_livery": "2_ferrari_NT.dds",
+          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "benetton",
+      "team_name": "Benetton Renault",
+      "team_principal": "Flavio Briatore",
+      "reputation": "TOP_TEAM",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.08,
+        "defending": 0.08,
+        "fuel_management": 0.08,
+        "qualifying_skill": 0.08,
+        "race_skill": 0.08,
+        "tyre_management": 0.08
+      },
+      "driver1_contract": {
+        "driver_id": "alesi_jean",
+        "races": 32,
+        "replaceable": true,
+        "drivernumber": 3
+      },
+      "driver2_contract": {
+        "driver_id": "berger_gerhard",
+        "races": 32,
+        "replaceable": true,
+        "drivernumber": 4
+      },
+      "base_livery_driver1": "3_Benetton.dds",
+      "base_livery_driver2": "4_Benetton.dds",
+      "helmet_sponsors": "Benetton_helmet_sponsors.dds",
+      "visor_sponsors": "Benetton_visor_sponsors_NT.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "3_Benetton_France.dds",
+          "driver2_livery": "4_Benetton_France.dds",
+          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "3_Benetton_NT.dds",
+          "driver2_livery": "4_Benetton_NT.dds",
+          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "3_Benetton_NT.dds",
+          "driver2_livery": "4_Benetton_NT.dds",
+          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "mclaren",
+      "team_name": "McLaren Mercedes",
+      "team_principal": "Ron Dennis",
+      "reputation": "MIDFIELD_HIGH",
+      "ams2car": "mclared_mp4_12",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.05,
+        "defending": 0.05,
+        "fuel_management": 0.05,
+        "qualifying_skill": 0.05,
+        "race_skill": 0.05,
+        "tyre_management": 0.05
+      },
+      "driver1_contract": {
+        "driver_id": "hakkinen_mika",
+        "races": 32,
+        "replaceable": false,
+        "drivernumber": 7
+      },
+      "driver2_contract": {
+        "driver_id": "coulthard_david",
+        "races": 32,
+        "replaceable": true,
+        "drivernumber": 8
+      },
+      "base_livery_driver1": "7_McLaren.dds",
+      "base_livery_driver2": "8_McLaren.dds",
+      "helmet_sponsors": "McLaren_helmet_sponsors.dds",
+      "visor_sponsors": "McLaren_visor_sponsors_NT.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "7_McLaren_France.dds",
+          "driver2_livery": "8_McLaren_France.dds",
+          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "7_McLaren_NT.dds",
+          "driver2_livery": "8_McLaren_NT.dds",
+          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "7_McLaren_Germany.dds",
+          "driver2_livery": "8_McLaren_Germany.dds",
+          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "jordan",
+      "team_name": "Jordan Peugeot",
+      "team_principal": "Eddie Jordan",
+      "reputation": "MIDFIELD",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.11,
+        "defending": 0.11,
+        "fuel_management": 0.11,
+        "qualifying_skill": 0.11,
+        "race_skill": 0.11,
+        "tyre_management": 0.11
+      },
+      "driver1_contract": {
+        "driver_id": "barrichello_rubens",
+        "races": 32,
+        "replaceable": false,
+        "drivernumber": 11
+      },
+      "driver2_contract": {
+        "driver_id": "brundle_martin",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 12
+      },
+      "base_livery_driver1": "11_jordan.dds",
+      "base_livery_driver2": "12_jordan.dds",
+      "helmet_sponsors": "Jordan_helmet_sponsors.dds",
+      "visor_sponsors": "Jordan_visor_sponsors.dds",
+      "livery_overrides": [
+        {
+          "race_id": 4,
+          "driver1_livery": "11_jordan_Europe.dds",
+          "driver2_livery": "12_jordan_Europe.dds",
+          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 9,
+          "driver1_livery": "11_jordan_France.dds",
+          "driver2_livery": "12_jordan_France.dds",
+          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "11_jordan_NT.dds",
+          "driver2_livery": "12_jordan_NT.dds",
+          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "11_jordan_NT.dds",
+          "driver2_livery": "12_jordan_NT.dds",
+          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "ligier_prost",
+      "team_name": "Ligier Mugen-Honda",
+      "reputation": "MIDFIELD",
+      "ams2car": "mclared_mp4_12",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.10,
+        "defending": 0.10,
+        "fuel_management": 0.10,
+        "qualifying_skill": 0.10,
+        "race_skill": 0.10,
+        "tyre_management": 0.10
+      },
+      "driver1_contract": {
+        "driver_id": "panis_olivier",
+        "races": 32,
+        "replaceable": false,
+        "drivernumber": 9
+      },
+      "driver2_contract": {
+        "driver_id": "diniz_pedro",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 10
+      },
+      "base_livery_driver1": "9_ligier.dds",
+      "base_livery_driver2": "10_ligier.dds",
+      "helmet_sponsors": "ligier_helmet_sponsors.dds",
+      "visor_sponsors": "ligier_visor_sponsors.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "9_ligier_France.dds",
+          "driver2_livery": "10_ligier_France.dds",
+          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "9_ligier_NT.dds",
+          "driver2_livery": "10_ligier_NT.dds",
+          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "9_ligier_Europe.dds",
+          "driver2_livery": "10_ligier_Europe.dds",
+          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "sauber",
+      "team_name": "Sauber Ford",
+      "team_principal": "Peter Sauber",
+      "reputation": "MIDFIELD",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.12,
+        "defending": 0.12,
+        "fuel_management": 0.12,
+        "qualifying_skill": 0.12,
+        "race_skill": 0.12,
+        "tyre_management": 0.12
+      },
+      "driver1_contract": {
+        "driver_id": "frenzen_heinz_harald",
+        "races": 16,
+        "replaceable": false,
+        "drivernumber": 14
+      },
+      "driver2_contract": {
+        "driver_id": "herbert_johnny",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 15
+      },
+      "base_livery_driver1": "14_sauber.dds",
+      "base_livery_driver2": "15_sauber.dds",
+      "livery_overrides": []
+    },
+    {
+      "team_id": "arrows",
+      "team_name": "Footwork Hart",
+      "reputation": "MINNOW",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.17,
+        "defending": 0.17,
+        "fuel_management": 0.17,
+        "qualifying_skill": 0.17,
+        "race_skill": 0.17,
+        "tyre_management": 0.17
+      },
+      "driver1_contract": {
+        "driver_id": "rosset_ricardo",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 16
+      },
+      "driver2_contract": {
+        "driver_id": "verstappen_jos",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 17
+      },
+      "base_livery_driver1": "16_arrows.png",
+      "base_livery_driver2": "17_arrows.png",
+      "livery_overrides": []
+    },
+    {
+      "team_id": "tyrrell",
+      "team_name": "Tyrrell Yamaha",
+      "team_principal": "Ken Tyrrell",
+      "reputation": "MINNOW",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.17,
+        "defending": 0.17,
+        "fuel_management": 0.17,
+        "qualifying_skill": 0.17,
+        "race_skill": 0.17,
+        "tyre_management": 0.17
+      },
+      "driver1_contract": {
+        "driver_id": "katayama_ukyo",
+        "races": 16,
+        "replaceable": false,
+        "drivernumber": 18
+      },
+      "driver2_contract": {
+        "driver_id": "salo_mika",
+        "races": 32,
+        "replaceable": false,
+        "drivernumber": 19
+      },
+      "base_livery_driver1": "18_tyrrell.dds",
+      "base_livery_driver2": "19_tyrrell.dds",
+      "helmet_sponsors": "tyrrell_helmet_sponsors.dds",
+      "visor_sponsors": "tyrrell_visor_sponsors_NT.dds",
+      "livery_overrides": [
+        {
+          "race_id": 9,
+          "driver1_livery": "18_tyrrell_France.dds",
+          "driver2_livery": "19_tyrrell_France.dds",
+          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 10,
+          "driver1_livery": "18_tyrrell_NT.dds",
+          "driver2_livery": "19_tyrrell_NT.dds",
+          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+        },
+        {
+          "race_id": 11,
+          "driver1_livery": "18_tyrrell_NT.dds",
+          "driver2_livery": "19_tyrrell_NT.dds",
+          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+        }
+      ]
+    },
+    {
+      "team_id": "minardi",
+      "team_name": "Minardi Ford",
+      "team_principal": "Giancarlo Minardi",
+      "reputation": "MINNOW",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.2,
+        "defending": 0.2,
+        "fuel_management": 0.2,
+        "qualifying_skill": 0.2,
+        "race_skill": 0.2,
+        "tyre_management": 0.2
+      },
+      "driver1_contract": {
+        "driver_id": "lamy_pedro",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 20
+      },
+      "driver2_contract": {
+        "driver_id": "fisichella_giancarlo",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 21
+      },
+      "base_livery_driver1": "20_minardi.dds",
+      "base_livery_driver2": "21_minardi.dds",
+      "helmet_sponsors": "minardi_helmet_sponsors.dds",
+      "visor_sponsors": "minardi_visor_sponsors_NT.dds",
+      "livery_overrides": []
+    },
+    {
+      "team_id": "forti",
+      "team_name": "Forti Ford",
+      "team_principal": "Guido Forti",
+      "reputation": "SUPER_MINNOW",
+      "ams2car": "formula_v10_g1",
+      "ams2carPerformanceMalus": {
+        "consistency": 0.25,
+        "defending": 0.25,
+        "fuel_management": 0.25,
+        "qualifying_skill": 0.25,
+        "race_skill": 0.25,
+        "tyre_management": 0.25
+      },
+      "driver1_contract": {
+        "driver_id": "badoer_luca",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 22
+      },
+      "driver2_contract": {
+        "driver_id": "montermini_andrea",
+        "races": 16,
+        "replaceable": true,
+        "drivernumber": 23
+      },
+      "base_livery_driver1": "22_forti.dds",
+      "base_livery_driver2": "23_forti.dds",
+      "helmet_sponsors": "forti_helmet_sponsors.dds",
+      "visor_sponsors": "forti_visor_sponsors_NT.dds",
+      "livery_overrides": []
+    }
+  ],
+  "absences": [
+    {
+      "race_id": 1,
+      "driver_out": "damon_hill",
+      "driver_in": "fisichella_giancarlo",
+      "newDriverNumber": 5,
+      "chainedAbsence": {
+        "race_id": 1,
+        "driver_out": "fisichella_giancarlo",
+        "driver_in": "marques_tarso",
+        "newDriverNumber": 21
+      }
+    },
+    {
+      "race_id": 1,
+      "driver_out": "lamy_pedro",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 2,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "marques_tarso",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 3,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "marques_tarso",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 11,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 12,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 13,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 14,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 15,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    },
+    {
+      "race_id": 16,
+      "driver_out": "fisichella_giancarlo",
+      "driver_in": "lavaggi_giovanni",
+      "newDriverNumber": 21
+    }
+  ]
+}

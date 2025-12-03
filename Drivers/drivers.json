@@ -1,0 +1,863 @@
+{
+  "drivers": [
+    {
+      "driver_id": "schumacher_michael",
+      "name": "Michael Schumacher",
+      "base_helmet_file": "Mschumacher.dds",
+      "base_visor_file": "Ferrari1.dds",
+      "nationality": "DEU",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_CHAMPIONSHIP_LEVEL",
+          "values": {
+            "aggression": 0.92,
+            "avoidance_of_forced_mistakes": 0.85,
+            "avoidance_of_mistakes": 0.85,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.99,
+            "defending": 0.94,
+            "fuel_management": 0.85,
+            "qualifying_skill": 0.97,
+            "race_skill": 0.98,
+            "stamina": 0.96,
+            "start_reactions": 1.0,
+            "tyre_management": 0.95,
+            "weather_tyre_changes": 0.97,
+            "wet_skill": 0.99
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "schumacher_ralf",
+      "name": "Ralf Schumacher",
+      "base_helmet_file": "Rschumacher.dds",
+      "base_visor_file": "Jordan.dds",
+      "nationality": "DEU",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.8,
+            "avoidance_of_forced_mistakes": 0.63,
+            "avoidance_of_mistakes": 0.63,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.81,
+            "defending": 0.82,
+            "fuel_management": 0.75,
+            "qualifying_skill": 0.85,
+            "race_skill": 0.89,
+            "stamina": 0.82,
+            "start_reactions": 1.0,
+            "tyre_management": 0.74
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "villeneuve_jacques",
+      "name": "Jacques Villeneuve",
+      "base_helmet_file": "villeneuve.dds",
+      "base_visor_file": "Williams.dds",
+      "nationality": "CAN",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "YOUNG_CHAMPIONSHIP_LEVEL_UNPROVEN",
+          "values": {
+            "aggression": 0.9,
+            "avoidance_of_forced_mistakes": 0.87,
+            "avoidance_of_mistakes": 0.87,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.92,
+            "defending": 0.88,
+            "fuel_management": 0.9,
+            "qualifying_skill": 0.93,
+            "race_skill": 0.95,
+            "stamina": 0.96,
+            "start_reactions": 1.0,
+            "tyre_management": 0.86,
+            "weather_tyre_changes": 0.88,
+            "wet_skill": 0.73
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "alesi_jean",
+      "name": "Jean Alesi",
+      "base_helmet_file": "alesi.dds",
+      "base_visor_file": "benetton3.dds",
+      "nationality": "FRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "AGEING_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.89,
+            "avoidance_of_forced_mistakes": 0.87,
+            "avoidance_of_mistakes": 0.87,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.97,
+            "defending": 0.89,
+            "fuel_management": 0.86,
+            "qualifying_skill": 0.91,
+            "race_skill": 0.95,
+            "stamina": 0.86,
+            "start_reactions": 1.0,
+            "tyre_management": 0.88,
+            "weather_tyre_changes": 0.93,
+            "wet_skill": 0.95
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "berger_gerhard",
+      "name": "Gerhard Berger",
+      "base_helmet_file": "berger.dds",
+      "base_visor_file": "benetton4.dds",
+      "nationality": "AUT",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "AGEING_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.81,
+            "avoidance_of_forced_mistakes": 0.86,
+            "avoidance_of_mistakes": 0.86,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.98,
+            "defending": 0.95,
+            "fuel_management": 0.86,
+            "qualifying_skill": 0.92,
+            "race_skill": 0.94,
+            "stamina": 0.89,
+            "start_reactions": 1.0,
+            "tyre_management": 0.88,
+            "weather_tyre_changes": 0.84,
+            "wet_skill": 0.80
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "hakkinen_mika",
+      "name": "Mika Häkkinen",
+      "base_helmet_file": "hakkinen.dds",
+      "base_visor_file": "mclaren.dds",
+      "nationality": "FIN",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_MIDFIELD",
+          "values": {
+            "aggression": 0.84,
+            "avoidance_of_forced_mistakes": 0.9,
+            "avoidance_of_mistakes": 0.9,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.98,
+            "defending": 0.91,
+            "fuel_management": 0.94,
+            "qualifying_skill": 0.87,
+            "race_skill": 0.85,
+            "stamina": 0.96,
+            "start_reactions": 0.50,
+            "tyre_management": 0.94,
+            "weather_tyre_changes": 0.86,
+            "wet_skill": 0.76
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "coulthard_david",
+      "name": "David Coulthard",
+      "base_helmet_file": "coulthard.dds",
+      "base_visor_file": "mclaren.dds",
+      "nationality": "GBR",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "YOUNG_CHAMPIONSHIP_LEVEL_UNPROVEN",
+          "values": {
+            "aggression": 0.77,
+            "avoidance_of_forced_mistakes": 0.83,
+            "avoidance_of_mistakes": 0.83,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.90,
+            "defending": 0.86,
+            "fuel_management": 0.87,
+            "qualifying_skill": 0.85,
+            "race_skill": 0.84,
+            "stamina": 0.89,
+            "start_reactions": 0.50,
+            "tyre_management": 0.95,
+            "weather_tyre_changes": 0.42,
+            "wet_skill": 0.88
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "hill_damon",
+      "name": "Damon Hill",
+      "base_helmet_file": "hill.dds",
+      "base_visor_file": "williams.dds",
+      "nationality": "GBR",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "AGEING_CHAMPIONSHIP_LEVEL",
+          "values": {
+            "aggression": 0.89,
+            "avoidance_of_forced_mistakes": 0.9,
+            "avoidance_of_mistakes": 0.9,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.97,
+            "defending": 0.88,
+            "fuel_management": 0.9,
+            "qualifying_skill": 0.99,
+            "race_skill": 0.98,
+            "stamina": 0.96,
+            "start_reactions": 1.0,
+            "tyre_management": 0.94,
+            "weather_tyre_changes": 0.95,
+            "wet_skill": 0.91
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "frenzen_heinz_harald",
+      "name": "Heinz-Harald Frentzen",
+      "base_helmet_file": "frenzen.dds",
+      "base_visor_file": "sauber.dds",
+      "nationality": "DEU",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.89,
+            "avoidance_of_forced_mistakes": 0.71,
+            "avoidance_of_mistakes": 0.71,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.96,
+            "defending": 0.97,
+            "fuel_management": 0.82,
+            "qualifying_skill": 0.86,
+            "race_skill": 0.91,
+            "stamina": 0.88,
+            "start_reactions": 1.0,
+            "tyre_management": 0.82,
+            "weather_tyre_changes": 0.69,
+            "wet_skill": 0.82
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "barrichello_rubens",
+      "name": "Rubens Barrichello",
+      "base_helmet_file": "barrichello.dds",
+      "base_visor_file": "jordan.dds",
+      "nationality": "BRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "YOUNG_CHAMPIONSHIP_LEVEL_UNPROVEN",
+          "values": {
+            "aggression": 0.95,
+            "avoidance_of_forced_mistakes": 0.7,
+            "avoidance_of_mistakes": 0.7,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.88,
+            "defending": 0.95,
+            "fuel_management": 0.77,
+            "qualifying_skill": 0.90,
+            "race_skill": 0.91,
+            "stamina": 0.84,
+            "start_reactions": 1.0,
+            "tyre_management": 0.82,
+            "weather_tyre_changes": 0.82,
+            "wet_skill": 0.83
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "brundle_martin",
+      "name": "Martin Brundle",
+      "base_helmet_file": "brundle.dds",
+      "base_visor_file": "jordan.dds",
+      "nationality": "GBR",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "AGEING_MIDFIELD",
+          "values": {
+            "aggression": 0.87,
+            "avoidance_of_forced_mistakes": 0.83,
+            "avoidance_of_mistakes": 0.83,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.99,
+            "defending": 0.99,
+            "fuel_management": 0.85,
+            "qualifying_skill": 0.86,
+            "race_skill": 0.91,
+            "stamina": 0.9,
+            "start_reactions": 1.0,
+            "tyre_management": 0.91,
+            "weather_tyre_changes": 0.81,
+            "wet_skill": 0.82
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "irvine_eddie",
+      "name": "Eddie Irvine",
+      "base_helmet_file": "irvine.dds",
+      "base_visor_file": "ferrari2.dds",
+      "nationality": "GBR",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.82,
+            "avoidance_of_forced_mistakes": 0.85,
+            "avoidance_of_mistakes": 0.85,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.92,
+            "defending": 0.81,
+            "fuel_management": 0.78,
+            "qualifying_skill": 0.87,
+            "race_skill": 0.86,
+            "stamina": 0.91,
+            "start_reactions": 1.0,
+            "tyre_management": 0.83,
+            "weather_tyre_changes": 0.7,
+            "wet_skill": 0.80
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "herbert_johnny",
+      "name": "Johnny Herbert",
+      "base_helmet_file": "herbert.dds",
+      "base_visor_file": "sauber.dds",
+      "nationality": "GBR",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "AGEING_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.81,
+            "avoidance_of_forced_mistakes": 0.83,
+            "avoidance_of_mistakes": 0.83,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.98,
+            "defending": 0.92,
+            "fuel_management": 0.83,
+            "qualifying_skill": 0.81,
+            "race_skill": 0.92,
+            "stamina": 0.9,
+            "start_reactions": 1.0,
+            "tyre_management": 0.98,
+            "weather_tyre_changes": 0.87,
+            "wet_skill": 0.81
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "panis_olivier",
+      "name": "Olivier Panis",
+      "base_helmet_file": "panis.dds",
+      "base_visor_file": "ligier.dds",
+      "nationality": "FRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_STRONG_MIDFIELD",
+          "values": {
+            "aggression": 0.9,
+            "avoidance_of_forced_mistakes": 0.78,
+            "avoidance_of_mistakes": 0.78,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.95,
+            "defending": 0.94,
+            "fuel_management": 0.87,
+            "qualifying_skill": 0.81,
+            "race_skill": 0.88,
+            "stamina": 0.83,
+            "start_reactions": 0.50,
+            "tyre_management": 0.89,
+            "weather_tyre_changes": 0.93,
+            "wet_skill": 0.82
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "lamy_pedro",
+      "name": "Pedro Lamy",
+      "base_helmet_file": "lamy.dds",
+      "base_visor_file": "minardi.dds",
+      "nationality": "PRT",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.7,
+            "avoidance_of_forced_mistakes": 0.68,
+            "avoidance_of_mistakes": 0.68,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.82,
+            "defending": 0.96,
+            "fuel_management": 0.72,
+            "qualifying_skill": 0.72,
+            "race_skill": 0.89,
+            "stamina": 0.71,
+            "start_reactions": 1.0,
+            "tyre_management": 0.74,
+            "weather_tyre_changes": 0.57,
+            "wet_skill": 0.67
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "badoer_luca",
+      "name": "Luca Badoer",
+      "base_helmet_file": "badoer.dds",
+      "base_visor_file": "forti22.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.69,
+            "avoidance_of_forced_mistakes": 0.56,
+            "avoidance_of_mistakes": 0.56,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.81,
+            "defending": 0.95,
+            "fuel_management": 0.83,
+            "qualifying_skill": 0.69,
+            "race_skill": 0.93,
+            "stamina": 0.69,
+            "start_reactions": 1.0,
+            "tyre_management": 0.91,
+            "weather_tyre_changes": 0.59,
+            "wet_skill": 0.69
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "fisichella_giancarlo",
+      "name": "Giancarlo Fisichella",
+      "base_helmet_file": "fisichella.dds",
+      "base_visor_file": "minardi.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.66,
+            "avoidance_of_forced_mistakes": 0.79,
+            "avoidance_of_mistakes": 0.79,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.98,
+            "defending": 0.81,
+            "fuel_management": 0.63,
+            "qualifying_skill": 0.78,
+            "race_skill": 0.91,
+            "stamina": 0.72,
+            "start_reactions": 1.0,
+            "tyre_management": 0.87,
+            "weather_tyre_changes": 0.77,
+            "wet_skill": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "salo_mika",
+      "name": "Mika Salo",
+      "base_helmet_file": "salo.dds",
+      "base_visor_file": "tyrrell19.dds",
+      "nationality": "FIN",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_MIDFIELD",
+          "values": {
+            "aggression": 0.81,
+            "avoidance_of_forced_mistakes": 0.56,
+            "avoidance_of_mistakes": 0.56,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.83,
+            "defending": 0.95,
+            "fuel_management": 0.73,
+            "qualifying_skill": 0.85,
+            "race_skill": 0.94,
+            "stamina": 0.8,
+            "start_reactions": 1.0,
+            "tyre_management": 0.86,
+            "weather_tyre_changes": 0.74,
+            "wet_skill": 0.78
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "katayama_ukyo",
+      "name": "Ukyo Katayama",
+      "base_helmet_file": "katayama.dds",
+      "base_visor_file": "tyrrell18.dds",
+      "nationality": "JPN",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_MIDFIELD",
+          "values": {
+            "aggression": 0.77,
+            "avoidance_of_forced_mistakes": 0.7,
+            "avoidance_of_mistakes": 0.7,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.73,
+            "defending": 0.88,
+            "fuel_management": 0.78,
+            "qualifying_skill": 0.80,
+            "race_skill": 0.87,
+            "stamina": 0.79,
+            "start_reactions": 1.0,
+            "tyre_management": 0.83,
+            "weather_tyre_changes": 0.52,
+            "wet_skill": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "diniz_pedro",
+      "name": "Pedro Diniz",
+      "base_helmet_file": "diniz.dds",
+      "base_visor_file": "ligier.dds",
+      "nationality": "BRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PRIME_MIDFIELD",
+          "values": {
+            "aggression": 0.7,
+            "avoidance_of_forced_mistakes": 0.74,
+            "avoidance_of_mistakes": 0.74,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.85,
+            "defending": 0.81,
+            "fuel_management": 0.72,
+            "qualifying_skill": 0.71,
+            "race_skill": 0.81,
+            "stamina": 0.76,
+            "start_reactions": 0.5,
+            "tyre_management": 0.74,
+            "weather_tyre_changes": 0.65,
+            "wet_skill": 0.67
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "montermini_andrea",
+      "name": "Andrea Montermini",
+      "base_helmet_file": "montermini.dds",
+      "base_visor_file": "forti23.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.61,
+            "avoidance_of_forced_mistakes": 0.56,
+            "avoidance_of_mistakes": 0.56,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.82,
+            "defending": 0.85,
+            "fuel_management": 0.73,
+            "qualifying_skill": 0.69,
+            "race_skill": 0.94,
+            "stamina": 0.58,
+            "start_reactions": 1.0,
+            "tyre_management": 0.80,
+            "weather_tyre_changes": 0.38,
+            "wet_skill": 0.61
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "rosset_ricardo",
+      "name": "Ricardo Rosset",
+      "base_helmet_file": "rosset.dds",
+      "base_visor_file": "footwork16.dds",
+      "nationality": "BRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.57,
+            "avoidance_of_forced_mistakes": 0.46,
+            "avoidance_of_mistakes": 0.46,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.73,
+            "defending": 0.70,
+            "fuel_management": 0.69,
+            "qualifying_skill": 0.66,
+            "race_skill": 0.86,
+            "stamina": 0.7,
+            "start_reactions": 1.0,
+            "tyre_management": 0.75,
+            "weather_tyre_changes": 0.46,
+            "wet_skill": 0.60
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "verstappen_jos",
+      "name": "Jos Verstappen",
+      "base_helmet_file": "verstappen.dds",
+      "base_visor_file": "footwork17.dds",
+      "nationality": "NLD",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.85,
+            "avoidance_of_forced_mistakes": 0.58,
+            "avoidance_of_mistakes": 0.58,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.89,
+            "defending": 0.98,
+            "fuel_management": 0.86,
+            "qualifying_skill": 0.84,
+            "race_skill": 0.94,
+            "stamina": 0.78,
+            "start_reactions": 1.0,
+            "tyre_management": 0.77,
+            "weather_tyre_changes": 0.8,
+            "wet_skill": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "lavaggi_giovanni",
+      "name": "Giovanni Lavaggi",
+      "base_helmet_file": "lavaggi.dds",
+      "base_visor_file": "minardi.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.55,
+            "avoidance_of_forced_mistakes": 0.43,
+            "avoidance_of_mistakes": 0.43,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.74,
+            "defending": 0.78,
+            "fuel_management": 0.64,
+            "qualifying_skill": 0.65,
+            "race_skill": 0.88,
+            "stamina": 0.47,
+            "start_reactions": 1.0,
+            "tyre_management": 0.66,
+            "weather_tyre_changes": 0.37,
+            "wet_skill": 0.61
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "nakano_shinji",
+      "name": "Shinji Nakano",
+      "base_helmet_file": "nakano.dds",
+      "base_visor_file": "ligier.dds",
+      "nationality": "JPN",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.47,
+            "avoidance_of_forced_mistakes": 0.23,
+            "avoidance_of_mistakes": 0.42,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.53,
+            "defending": 0.38,
+            "fuel_management": 0.58,
+            "qualifying_skill": 0.70,
+            "race_skill": 0.80,
+            "stamina": 0.61,
+            "start_reactions": 1.0,
+            "tyre_management": 0.55
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "magnussen_jan",
+      "name": "Jan Magnussen",
+      "base_helmet_file": "magnussen.dds",
+      "base_visor_file": "stewart.dds",
+      "nationality": "DEN",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.7,
+            "avoidance_of_forced_mistakes": 0.42,
+            "avoidance_of_mistakes": 0.42,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.66,
+            "defending": 0.74,
+            "fuel_management": 0.67,
+            "qualifying_skill": 0.71,
+            "race_skill": 0.77,
+            "stamina": 0.7,
+            "start_reactions": 1.0,
+            "tyre_management": 0.65
+          }
+        }
+      ]
+
+    },
+    {
+      "driver_id": "wurz_alexander",
+      "name": "Alexander Wurz",
+      "base_helmet_file": "wurz.dds",
+      "base_visor_file": "benetton8.dds",
+      "nationality": "AUT",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.91,
+            "avoidance_of_forced_mistakes": 0.74,
+            "avoidance_of_mistakes": 0.74,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.88,
+            "defending": 0.93,
+            "fuel_management": 0.77,
+            "qualifying_skill": 0.9,
+            "race_skill": 0.97,
+            "stamina": 0.88,
+            "start_reactions": 1.0,
+            "tyre_management": 0.73
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "trulli_jarno",
+      "name": "Jarno Trulli",
+      "base_helmet_file": "trulli_Minardi.dds",
+      "base_visor_file": "Minardi21_Trulli.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "YOUNG_TALENT",
+          "values": {
+            "aggression": 0.87,
+            "avoidance_of_forced_mistakes": 0.6,
+            "avoidance_of_mistakes": 0.6,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.82,
+            "defending": 0.8,
+            "fuel_management": 0.74,
+            "qualifying_skill": 0.83,
+            "race_skill": 0.79,
+            "stamina": 0.81,
+            "start_reactions": 1.0,
+            "tyre_management": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "morbidelli_gianni",
+      "name": "Gianni Morbidelli",
+      "base_helmet_file": "morbidelli.dds",
+      "base_visor_file": "Sauber.dds",
+      "nationality": "ITA",
+      "ratings": [
+        {
+          "season": "1997",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.64,
+            "avoidance_of_forced_mistakes": 0.49,
+            "avoidance_of_mistakes": 0.49,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.7,
+            "defending": 0.67,
+            "fuel_management": 0.55,
+            "qualifying_skill": 0.72,
+            "race_skill": 0.77,
+            "stamina": 0.74,
+            "start_reactions": 1.0,
+            "tyre_management": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "driver_id": "marques_tarso",
+      "name": "Tarso Marques",
+      "base_helmet_file": "marques.dds",
+      "base_visor_file": "minardi.dds",
+      "nationality": "BRA",
+      "ratings": [
+        {
+          "season": "1996",
+          "reputation": "PAY_DRIVER_SEASON",
+          "values": {
+            "aggression": 0.66,
+            "avoidance_of_forced_mistakes": 0.71,
+            "avoidance_of_mistakes": 0.71,
+            "blue_flag_conceding": 1.0,
+            "consistency": 0.77,
+            "defending": 0.7,
+            "fuel_management": 0.6,
+            "qualifying_skill": 0.67,
+            "race_skill": 0.69,
+            "stamina": 0.79,
+            "start_reactions": 1.0,
+            "tyre_management": 0.73,
+            "weather_tyre_changes": 0.62,
+            "wet_skill": 0.60
+          }
+        }
+      ]
+    }
+  ]
+}

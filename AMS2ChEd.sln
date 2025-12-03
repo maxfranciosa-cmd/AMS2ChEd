@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMS2ChEd", "AMS2ChEd.csproj", "{26C5BBAC-E85C-43B4-9029-4D1D295A5C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMS2ChEd.Tests", "..\AMS2ChEd.Tests\AMS2ChEd.Tests.csproj", "{C5252490-B0FC-41BD-8D52-695AE39353DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C5BBAC-E85C-43B4-9029-4D1D295A5C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C5BBAC-E85C-43B4-9029-4D1D295A5C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C5BBAC-E85C-43B4-9029-4D1D295A5C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C5BBAC-E85C-43B4-9029-4D1D295A5C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5252490-B0FC-41BD-8D52-695AE39353DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5252490-B0FC-41BD-8D52-695AE39353DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5252490-B0FC-41BD-8D52-695AE39353DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5252490-B0FC-41BD-8D52-695AE39353DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E2C5E2C-4885-4CC9-BEF1-EBDFC40AAEEB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--F1 1997 Regular Liveries-->
+<USER_OVERRIDES>
+
+	<LIVERY_OVERRIDE LIVERY="51" NAME="1997 McLaren #9 - M. Häkkinen" BASELIVERY="SilverMetallic">
+	<PREVIEWIMAGE PATH="F1_Season_1997\Preview\9_McLaren.dds" />
+	<TEXTURE NAME="BODY" PATH="F1_Season_1997\9_McLaren.dds" />
+	<TEXTURE NAME="WHEELDIFF" PATH="F1_Season_1997\Rims\McLaren.dds" />
+	<TEXTURE NAME="WHEELBLURDIFF" PATH="F1_Season_1997\Rims\McLaren_Blur.dds" />
+	</LIVERY_OVERRIDE>
+	<HELMET_OVERRIDE LIVERY="51" BASEHELMET="DEFAULT">
+	<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Helmet\Hakkinen.dds" />
+	<TEXTURE NAME="BODY_SPEC" PATH="F1_Season_1997\Helmet\helmet_spec.dds" />
+		<TEXTURE NAME="VISOR_DIFF" PATH="F1_Season_1997\Helmet\McLaren.dds" />
+	</HELMET_OVERRIDE>
+	<OUTFIT_OVERRIDE LIVERY="51" BASEOUTFIT="DEFAULT">
+		<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Driver\McLarenDriver.dds" />
+		<TEXTURE NAME="ARMS_DIFF" PATH="F1_Season_1997\Driver\McLarenArms.dds" />
+		<TEXTURE NAME="GLOVES_DIFF" PATH="F1_Season_1997\Driver\McLarenGloves.dds" />
+		<TEXTURE NAME="GLOVES_SPEC" PATH="F1_Season_1997\Driver\Gloves_spec.dds" />
+		<TEXTURE NAME="LEGS_DIFF" PATH="F1_Season_1997\Driver\McLarenLegs.dds" />
+		<TEXTURE NAME="SEATBELTS_DIFF" PATH="F1_Season_1997\Harness\black.dds" />
+	</OUTFIT_OVERRIDE>
+
+	<LIVERY_OVERRIDE LIVERY="52" NAME="1997 McLaren #10 - D. Coulthard" BASELIVERY="SilverMetallic">
+	<PREVIEWIMAGE PATH="F1_Season_1997\Preview\10_McLaren.dds" />
+	<TEXTURE NAME="BODY" PATH="F1_Season_1997\10_McLaren.dds" />
+	<TEXTURE NAME="WHEELDIFF" PATH="F1_Season_1997\Rims\McLaren.dds" />
+	<TEXTURE NAME="WHEELBLURDIFF" PATH="F1_Season_1997\Rims\McLaren_Blur.dds" />
+	</LIVERY_OVERRIDE>
+	<HELMET_OVERRIDE LIVERY="52" BASEHELMET="DEFAULT">
+	<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Helmet\Coulthard.dds" />
+	<TEXTURE NAME="BODY_SPEC" PATH="F1_Season_1997\Helmet\helmet_spec.dds" />
+		<TEXTURE NAME="VISOR_DIFF" PATH="F1_Season_1997\Helmet\McLaren.dds" />
+	</HELMET_OVERRIDE>
+	<OUTFIT_OVERRIDE LIVERY="52" BASEOUTFIT="DEFAULT">
+		<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Driver\McLarenDriver.dds" />
+		<TEXTURE NAME="ARMS_DIFF" PATH="F1_Season_1997\Driver\McLarenArms.dds" />
+		<TEXTURE NAME="GLOVES_DIFF" PATH="F1_Season_1997\Driver\McLarenGloves.dds" />
+		<TEXTURE NAME="GLOVES_SPEC" PATH="F1_Season_1997\Driver\Gloves_spec.dds" />
+		<TEXTURE NAME="LEGS_DIFF" PATH="F1_Season_1997\Driver\McLarenLegs.dds" />
+		<TEXTURE NAME="SEATBELTS_DIFF" PATH="F1_Season_1997\Harness\black.dds" />
+	</OUTFIT_OVERRIDE>
+
+	<LIVERY_OVERRIDE LIVERY="53" NAME="1997 Lotus #24 - B. Gachot" BASELIVERY="Default">
+	<PREVIEWIMAGE PATH="F1_Season_1997\Preview\24_Lotus.dds" />
+	<TEXTURE NAME="BODY" PATH="F1_Season_1997\24_Lotus.dds" />
+	<TEXTURE NAME="WHEELDIFF" PATH="F1_Season_1997\Rims\Lotus.dds" />
+	<TEXTURE NAME="WHEELBLURDIFF" PATH="F1_Season_1997\Rims\Lotus_Blur.dds" />
+		<TEXTURE NAME="WHEELSPEC" PATH="F1_Season_1997\Rims\spec_low.dds" />
+	<TEXTURE NAME="WHEELBLURSPEC" PATH="F1_Season_1997\Rims\spec_low_blur.dds" />
+	</LIVERY_OVERRIDE>
+	<HELMET_OVERRIDE LIVERY="53" BASEHELMET="DEFAULT">
+	<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Helmet\Gachot.dds" />
+	<TEXTURE NAME="BODY_SPEC" PATH="F1_Season_1997\Helmet\helmet_spec.dds" />
+		<TEXTURE NAME="VISOR_DIFF" PATH="F1_Season_1997\Helmet\Lotus.dds" />
+	</HELMET_OVERRIDE>
+	<OUTFIT_OVERRIDE LIVERY="53" BASEOUTFIT="DEFAULT">
+		<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Driver\LotusDriver.dds" />
+		<TEXTURE NAME="ARMS_DIFF" PATH="F1_Season_1997\Driver\LotusArms.dds" />
+		<TEXTURE NAME="GLOVES_DIFF" PATH="F1_Season_1997\Driver\LotusGloves.dds" />
+		<TEXTURE NAME="GLOVES_SPEC" PATH="F1_Season_1997\Driver\Gloves_spec.dds" />
+		<TEXTURE NAME="LEGS_DIFF" PATH="F1_Season_1997\Driver\LotusLegs.dds" />
+		<TEXTURE NAME="SEATBELTS_DIFF" PATH="F1_Season_1997\Harness\red.dds" />
+	</OUTFIT_OVERRIDE>
+	
+	<LIVERY_OVERRIDE LIVERY="54" NAME="1997 Lotus #25 - H. Noda" BASELIVERY="Default">
+	<PREVIEWIMAGE PATH="F1_Season_1997\Preview\25_Lotus.dds" />
+	<TEXTURE NAME="BODY" PATH="F1_Season_1997\25_Lotus.dds" />
+	<TEXTURE NAME="WHEELDIFF" PATH="F1_Season_1997\Rims\Lotus.dds" />
+	<TEXTURE NAME="WHEELBLURDIFF" PATH="F1_Season_1997\Rims\Lotus_Blur.dds" />
+		<TEXTURE NAME="WHEELSPEC" PATH="F1_Season_1997\Rims\spec_low.dds" />
+	<TEXTURE NAME="WHEELBLURSPEC" PATH="F1_Season_1997\Rims\spec_low_blur.dds" />
+	</LIVERY_OVERRIDE>
+	<HELMET_OVERRIDE LIVERY="54" BASEHELMET="DEFAULT">
+	<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Helmet\Noda.dds" />
+	<TEXTURE NAME="BODY_SPEC" PATH="F1_Season_1997\Helmet\helmet_spec.dds" />
+		<TEXTURE NAME="VISOR_DIFF" PATH="F1_Season_1997\Helmet\Lotus.dds" />
+	</HELMET_OVERRIDE>
+	<OUTFIT_OVERRIDE LIVERY="54" BASEOUTFIT="DEFAULT">
+		<TEXTURE NAME="BODY_DIFF" PATH="F1_Season_1997\Driver\LotusDriver.dds" />
+		<TEXTURE NAME="ARMS_DIFF" PATH="F1_Season_1997\Driver\LotusArms.dds" />
+		<TEXTURE NAME="GLOVES_DIFF" PATH="F1_Season_1997\Driver\LotusGloves.dds" />
+		<TEXTURE NAME="GLOVES_SPEC" PATH="F1_Season_1997\Driver\Gloves_spec.dds" />
+		<TEXTURE NAME="LEGS_DIFF" PATH="F1_Season_1997\Driver\LotusLegs.dds" />
+		<TEXTURE NAME="SEATBELTS_DIFF" PATH="F1_Season_1997\Harness\red.dds" />
+	</OUTFIT_OVERRIDE>
+
+</USER_OVERRIDES>

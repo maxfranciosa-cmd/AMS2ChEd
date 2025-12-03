@@ -1,0 +1,15 @@
+{
+  "Races": [
+    { "TrackName": "Interlagos" },
+    { "TrackName": "Monaco" },
+    { "TrackName": "Silverstone" }
+  ],
+  "PointsSystem": {
+    "1": 10,
+    "2": 6,
+    "3": 4,
+    "4": 3,
+    "5": 2,
+    "6": 1
+  }
+}

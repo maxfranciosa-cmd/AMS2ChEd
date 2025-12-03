@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<USER_OVERRIDES>
+    <LIVERY_OVERRIDE LIVERY="51" NAME="2001 F1 Safety Car" BASELIVERY="SilverMetallic">
+	  <TEXTURE NAME="BODY" PATH="F1_Season_2001\SafetyCar.dds" />
+    </LIVERY_OVERRIDE>
+
+</USER_OVERRIDES>

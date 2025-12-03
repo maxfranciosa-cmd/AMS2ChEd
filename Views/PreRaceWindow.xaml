@@ -1,0 +1,62 @@
+﻿<Window x:Class="AMS2ChEd.Views.PreRaceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Pre-Race"
+        Height="720" Width="1000" WindowStartupLocation="CenterOwner"
+        Background="{StaticResource WindowBackground}">
+
+
+    <Grid Margin="12">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel>
+            <TextBlock Text="Pre-Race" FontSize="20" FontWeight="Bold" DockPanel.Dock="Left" />
+            <Button Content="Open Listening Window" DockPanel.Dock="Right" Click="OpenListening_Click"/>
+        </DockPanel>
+
+
+        <Grid Grid.Row="1" Margin="0,12,0,0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left -->
+            <Border Background="{StaticResource PanelBackground}" Margin="0,0,12,0" CornerRadius="10" Padding="12">
+                <StackPanel>
+                    <TextBlock Text="1) Next Race" FontWeight="SemiBold"/>
+                    <Border Background="{StaticResource CardBackground}" CornerRadius="8" Padding="8" Margin="0,8,0,8">
+                        <StackPanel>
+                            <TextBlock Text="Brazil — Interlagos" FontSize="16" FontWeight="SemiBold"/>
+                            <TextBlock Text="Laps: 71 | Length: 4.309 km" Foreground="{StaticResource SecondaryText}"/>
+                        </StackPanel>
+                    </Border>
+
+
+                    <TextBlock Text="2) Calendar" FontWeight="SemiBold" Margin="0,8,0,4"/>
+                    <ListBox x:Name="CalendarList" Height="220"/>
+                </StackPanel>
+            </Border>
+
+
+            <!-- Right -->
+            <Border Background="{StaticResource CardBackground}" CornerRadius="10" Padding="12">
+                <StackPanel>
+                    <TextBlock Text="3) Standings" FontWeight="SemiBold"/>
+                    <ListView x:Name="StandingsList" Height="300"/>
+
+
+                    <Button Content="Listen to Result" Margin="0,12,0,0" Click="Listen_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
