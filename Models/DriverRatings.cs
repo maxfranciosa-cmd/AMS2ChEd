@@ -41,7 +41,7 @@ namespace AMS2ChEd.Models
         public DriverReputation Reputation { get; set; }
 
         [JsonPropertyName("values")]
-        public RatingValues Values { get; set; }
+        public Dictionary<string, double> Values { get; set; }
     }
 
     public class RatingValues

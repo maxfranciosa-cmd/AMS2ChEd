@@ -8,23 +8,104 @@
     "5": 2,
     "6": 1
   },
+  "ams2Class": "F-V10_Gen1",
   "races": [
-    { "race_id": 1, "race_name": "Australia", "race_date": "1996-03-10", "circuit": "Albert Park" },
-    { "race_id": 2, "race_name": "Brazil", "race_date": "1996-03-31", "circuit": "Interlagos" },
-    { "race_id": 3, "race_name": "Argentina", "race_date": "1996-04-07", "circuit": "Autódromo Oscar Alfredo Gálvez" },
-    { "race_id": 4, "race_name": "Europe", "race_date": "1996-04-28", "circuit": "Nürburgring" },
-    { "race_id": 5, "race_name": "San Marino", "race_date": "1996-05-05", "circuit": "Imola" },
-    { "race_id": 6, "race_name": "Monaco", "race_date": "1996-05-19", "circuit": "Monte Carlo" },
-    { "race_id": 7, "race_name": "Spain", "race_date": "1996-06-02", "circuit": "Circuit de Barcelona–Catalunya" },
-    { "race_id": 8, "race_name": "Canada", "race_date": "1996-06-16", "circuit": "Circuit Gilles Villeneuve" },
-    { "race_id": 9, "race_name": "France", "race_date": "1996-06-30", "circuit": "Magny-Cours" },
-    { "race_id": 10, "race_name": "Great Britain", "race_date": "1996-07-14", "circuit": "Silverstone" },
-    { "race_id": 11, "race_name": "Germany", "race_date": "1996-07-28", "circuit": "Hockenheimring" },
-    { "race_id": 12, "race_name": "Hungary", "race_date": "1996-08-11", "circuit": "Hungaroring" },
-    { "race_id": 13, "race_name": "Belgium", "race_date": "1996-08-25", "circuit": "Spa-Francorchamps" },
-    { "race_id": 14, "race_name": "Italy", "race_date": "1996-09-08", "circuit": "Monza" },
-    { "race_id": 15, "race_name": "Portugal", "race_date": "1996-09-22", "circuit": "Estoril" },
-    { "race_id": 16, "race_name": "Japan", "race_date": "1996-10-13", "circuit": "Suzuka" }
+    {
+      "race_id": 1,
+      "race_name": "Australia",
+      "race_date": "1996-03-10",
+      "circuit": "Albert Park"
+    },
+    {
+      "race_id": 2,
+      "race_name": "Brazil",
+      "race_date": "1996-03-31",
+      "circuit": "Interlagos"
+    },
+    {
+      "race_id": 3,
+      "race_name": "Argentina",
+      "race_date": "1996-04-07",
+      "circuit": "Autódromo Oscar Alfredo Gálvez"
+    },
+    {
+      "race_id": 4,
+      "race_name": "Europe",
+      "race_date": "1996-04-28",
+      "circuit": "Nürburgring"
+    },
+    {
+      "race_id": 5,
+      "race_name": "San Marino",
+      "race_date": "1996-05-05",
+      "circuit": "Imola"
+    },
+    {
+      "race_id": 6,
+      "race_name": "Monaco",
+      "race_date": "1996-05-19",
+      "circuit": "Monte Carlo"
+    },
+    {
+      "race_id": 7,
+      "race_name": "Spain",
+      "race_date": "1996-06-02",
+      "circuit": "Circuit de Barcelona–Catalunya"
+    },
+    {
+      "race_id": 8,
+      "race_name": "Canada",
+      "race_date": "1996-06-16",
+      "circuit": "Circuit Gilles Villeneuve"
+    },
+    {
+      "race_id": 9,
+      "race_name": "France",
+      "race_date": "1996-06-30",
+      "circuit": "Magny-Cours"
+    },
+    {
+      "race_id": 10,
+      "race_name": "Great Britain",
+      "race_date": "1996-07-14",
+      "circuit": "Silverstone"
+    },
+    {
+      "race_id": 11,
+      "race_name": "Germany",
+      "race_date": "1996-07-28",
+      "circuit": "Hockenheimring"
+    },
+    {
+      "race_id": 12,
+      "race_name": "Hungary",
+      "race_date": "1996-08-11",
+      "circuit": "Hungaroring"
+    },
+    {
+      "race_id": 13,
+      "race_name": "Belgium",
+      "race_date": "1996-08-25",
+      "circuit": "Spa-Francorchamps"
+    },
+    {
+      "race_id": 14,
+      "race_name": "Italy",
+      "race_date": "1996-09-08",
+      "circuit": "Monza"
+    },
+    {
+      "race_id": 15,
+      "race_name": "Portugal",
+      "race_date": "1996-09-22",
+      "circuit": "Estoril"
+    },
+    {
+      "race_id": 16,
+      "race_name": "Japan",
+      "race_date": "1996-10-13",
+      "circuit": "Suzuka"
+    }
   ],
   "teams": [
     {
@@ -53,28 +134,30 @@
         "replaceable": true,
         "drivernumber": 6
       },
-      "base_livery_driver1": "5_Williams.dds",
-      "base_livery_driver2": "6_Williams.dds",
-      "helmet_sponsors": "Williams_helmet_sponsors.dds",
-      "visor_sponsors": "Williams_visor_sponsors.dds",
+      "driver1_livery_number": "55",
+      "driver2_livery_number": "56",
+      "base_livery_driver1": "car_liveries\\5_Williams.dds",
+      "base_livery_driver2": "car_liveries\\6_Williams.dds",
+      "helmet_sponsors": "helmet_sponsors\\Williams_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\Williams_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "5_Williams_France.dds",
-          "driver2_livery": "6_Williams_France.dds",
-          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\5_Williams_France.dds",
+          "driver2_livery": "car_liveries\\6_Williams_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\Williams_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "5_Williams_NT.dds",
-          "driver2_livery": "6_Williams_NT.dds",
-          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\5_Williams_NT.dds",
+          "driver2_livery": "car_liveries\\6_Williams_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Williams_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "5_Williams_NT.dds",
-          "driver2_livery": "6_Williams_NT.dds",
-          "helmet_sponsors": "Williams_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\5_Williams_NT.dds",
+          "driver2_livery": "car_liveries\\6_Williams_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Williams_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -104,28 +187,30 @@
         "replaceable": true,
         "drivernumber": 2
       },
-      "base_livery_driver1": "1_ferrari.dds",
-      "base_livery_driver2": "2_ferrari.dds",
-      "helmet_sponsors": "ferrari_helmet_sponsors.dds",
-      "visor_sponsors": "ferrari_visor_sponsors.dds",
+      "driver1_livery_number": "51",
+      "driver2_livery_number": "52",
+      "base_livery_driver1": "car_liveries\\1_ferrari.dds",
+      "base_livery_driver2": "car_liveries\\2_ferrari.dds",
+      "helmet_sponsors": "helmet_sponsors\\ferrari_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\ferrari_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "1_ferrari_France.dds",
-          "driver2_livery": "2_ferrari_France.dds",
-          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\1_ferrari_France.dds",
+          "driver2_livery": "car_liveries\\2_ferrari_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\ferrari_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "1_ferrari_NT.dds",
-          "driver2_livery": "2_ferrari_NT.dds",
-          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\1_ferrari_NT.dds",
+          "driver2_livery": "car_liveries\\2_ferrari_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\ferrari_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "1_ferrari_NT.dds",
-          "driver2_livery": "2_ferrari_NT.dds",
-          "helmet_sponsors": "ferrari_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\1_ferrari_NT.dds",
+          "driver2_livery": "car_liveries\\2_ferrari_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\ferrari_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -155,28 +240,30 @@
         "replaceable": true,
         "drivernumber": 4
       },
-      "base_livery_driver1": "3_Benetton.dds",
-      "base_livery_driver2": "4_Benetton.dds",
-      "helmet_sponsors": "Benetton_helmet_sponsors.dds",
-      "visor_sponsors": "Benetton_visor_sponsors_NT.dds",
+      "driver1_livery_number": "53",
+      "driver2_livery_number": "54",
+      "base_livery_driver1": "car_liveries\\3_Benetton.dds",
+      "base_livery_driver2": "car_liveries\\4_Benetton.dds",
+      "helmet_sponsors": "helmet_sponsors\\Benetton_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\Benetton_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "3_Benetton_France.dds",
-          "driver2_livery": "4_Benetton_France.dds",
-          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\3_Benetton_France.dds",
+          "driver2_livery": "car_liveries\\4_Benetton_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\Benetton_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "3_Benetton_NT.dds",
-          "driver2_livery": "4_Benetton_NT.dds",
-          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\3_Benetton_NT.dds",
+          "driver2_livery": "car_liveries\\4_Benetton_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Benetton_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "3_Benetton_NT.dds",
-          "driver2_livery": "4_Benetton_NT.dds",
-          "helmet_sponsors": "Benetton_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\3_Benetton_NT.dds",
+          "driver2_livery": "car_liveries\\4_Benetton_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Benetton_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -185,7 +272,7 @@
       "team_name": "McLaren Mercedes",
       "team_principal": "Ron Dennis",
       "reputation": "MIDFIELD_HIGH",
-      "ams2car": "mclared_mp4_12",
+      "ams2car": "mclaren_mp4_12",
       "ams2carPerformanceMalus": {
         "consistency": 0.05,
         "defending": 0.05,
@@ -206,28 +293,30 @@
         "replaceable": true,
         "drivernumber": 8
       },
-      "base_livery_driver1": "7_McLaren.dds",
-      "base_livery_driver2": "8_McLaren.dds",
-      "helmet_sponsors": "McLaren_helmet_sponsors.dds",
-      "visor_sponsors": "McLaren_visor_sponsors_NT.dds",
+      "driver1_livery_number": "51",
+      "driver2_livery_number": "52",
+      "base_livery_driver1": "car_liveries\\7_McLaren.dds",
+      "base_livery_driver2": "car_liveries\\8_McLaren.dds",
+      "helmet_sponsors": "helmet_sponsors\\McLaren_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\McLaren_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "7_McLaren_France.dds",
-          "driver2_livery": "8_McLaren_France.dds",
-          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\7_McLaren_France.dds",
+          "driver2_livery": "car_liveries\\8_McLaren_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\McLaren_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "7_McLaren_NT.dds",
-          "driver2_livery": "8_McLaren_NT.dds",
-          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\7_McLaren_NT.dds",
+          "driver2_livery": "car_liveries\\8_McLaren_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\McLaren_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "7_McLaren_Germany.dds",
-          "driver2_livery": "8_McLaren_Germany.dds",
-          "helmet_sponsors": "McLaren_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\7_McLaren_Germany.dds",
+          "driver2_livery": "car_liveries\\8_McLaren_Germany.dds",
+          "helmet_sponsors": "helmet_sponsors\\McLaren_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -257,34 +346,36 @@
         "replaceable": true,
         "drivernumber": 12
       },
-      "base_livery_driver1": "11_jordan.dds",
-      "base_livery_driver2": "12_jordan.dds",
-      "helmet_sponsors": "Jordan_helmet_sponsors.dds",
-      "visor_sponsors": "Jordan_visor_sponsors.dds",
+      "driver1_livery_number": "57",
+      "driver2_livery_number": "58",
+      "base_livery_driver1": "car_liveries\\11_jordan.dds",
+      "base_livery_driver2": "car_liveries\\12_jordan.dds",
+      "helmet_sponsors": "helmet_sponsors\\Jordan_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\Jordan_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 4,
-          "driver1_livery": "11_jordan_Europe.dds",
-          "driver2_livery": "12_jordan_Europe.dds",
-          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\11_jordan_Europe.dds",
+          "driver2_livery": "car_liveries\\12_jordan_Europe.dds",
+          "helmet_sponsors": "helmet_sponsors\\Jordan_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 9,
-          "driver1_livery": "11_jordan_France.dds",
-          "driver2_livery": "12_jordan_France.dds",
-          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\11_jordan_France.dds",
+          "driver2_livery": "car_liveries\\12_jordan_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\Jordan_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "11_jordan_NT.dds",
-          "driver2_livery": "12_jordan_NT.dds",
-          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\11_jordan_NT.dds",
+          "driver2_livery": "car_liveries\\12_jordan_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Jordan_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "11_jordan_NT.dds",
-          "driver2_livery": "12_jordan_NT.dds",
-          "helmet_sponsors": "Jordan_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\11_jordan_NT.dds",
+          "driver2_livery": "car_liveries\\12_jordan_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\Jordan_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -292,7 +383,7 @@
       "team_id": "ligier_prost",
       "team_name": "Ligier Mugen-Honda",
       "reputation": "MIDFIELD",
-      "ams2car": "mclared_mp4_12",
+      "ams2car": "mclaren_mp4_12",
       "ams2carPerformanceMalus": {
         "consistency": 0.10,
         "defending": 0.10,
@@ -313,31 +404,33 @@
         "replaceable": true,
         "drivernumber": 10
       },
-      "base_livery_driver1": "9_ligier.dds",
-      "base_livery_driver2": "10_ligier.dds",
-      "helmet_sponsors": "ligier_helmet_sponsors.dds",
-      "visor_sponsors": "ligier_visor_sponsors.dds",
+      "driver1_livery_number": "53",
+      "driver2_livery_number": "54",
+      "base_livery_driver1": "car_liveries\\9_ligier.dds",
+      "base_livery_driver2": "car_liveries\\10_ligier.dds",
+      "helmet_sponsors": "helmet_sponsors\\ligier_helmet_sponsors.dds",
+      "visor_sponsors": "helmet_sponsors\\ligier_visor_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "9_ligier_France.dds",
-          "driver2_livery": "10_ligier_France.dds",
-          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
-          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\9_ligier_France.dds",
+          "driver2_livery": "car_liveries\\10_ligier_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "helmet_sponsors\\ligier_visor_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "9_ligier_NT.dds",
-          "driver2_livery": "10_ligier_NT.dds",
-          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
-          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\9_ligier_NT.dds",
+          "driver2_livery": "car_liveries\\10_ligier_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "helmet_sponsors\\ligier_visor_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "9_ligier_Europe.dds",
-          "driver2_livery": "10_ligier_Europe.dds",
-          "helmet_sponsors": "ligier_helmet_sponsors_NT.dds",
-          "visor_sponsors": "ligier_visor_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\9_ligier_Europe.dds",
+          "driver2_livery": "car_liveries\\10_ligier_Europe.dds",
+          "helmet_sponsors": "helmet_sponsors\\ligier_helmet_sponsors_NT.dds",
+          "visor_sponsors": "helmet_sponsors\\ligier_visor_sponsors_NT.dds"
         }
       ]
     },
@@ -356,19 +449,22 @@
         "tyre_management": 0.12
       },
       "driver1_contract": {
-        "driver_id": "frenzen_heinz_harald",
+        "driver_id": "herbert_johnny",
         "races": 16,
         "replaceable": false,
         "drivernumber": 14
       },
       "driver2_contract": {
-        "driver_id": "herbert_johnny",
+        "driver_id": "frenzen_heinz_harald",
         "races": 16,
         "replaceable": true,
         "drivernumber": 15
       },
-      "base_livery_driver1": "14_sauber.dds",
-      "base_livery_driver2": "15_sauber.dds",
+      "driver1_livery_number": "59",
+      "driver2_livery_number": "60",
+      "base_livery_driver1": "car_liveries\\14_sauber.dds",
+      "base_livery_driver2": "car_liveries\\15_sauber.dds",
+      "helmet_sponsors": "helmet_sponsors\\sauber_helmet_sponsors.dds",
       "livery_overrides": []
     },
     {
@@ -396,8 +492,10 @@
         "replaceable": true,
         "drivernumber": 17
       },
-      "base_livery_driver1": "16_arrows.png",
-      "base_livery_driver2": "17_arrows.png",
+      "driver1_livery_number": "61",
+      "driver2_livery_number": "62",
+      "base_livery_driver1": "car_liveries\\16_arrows.png",
+      "base_livery_driver2": "car_liveries\\17_arrows.png",
       "livery_overrides": []
     },
     {
@@ -426,28 +524,29 @@
         "replaceable": false,
         "drivernumber": 19
       },
-      "base_livery_driver1": "18_tyrrell.dds",
-      "base_livery_driver2": "19_tyrrell.dds",
-      "helmet_sponsors": "tyrrell_helmet_sponsors.dds",
-      "visor_sponsors": "tyrrell_visor_sponsors_NT.dds",
+      "driver1_livery_number": "63",
+      "driver2_livery_number": "64",
+      "base_livery_driver1": "car_liveries\\18_tyrrell.dds",
+      "base_livery_driver2": "car_liveries\\19_tyrrell.dds",
+      "helmet_sponsors": "helmet_sponsors\\tyrrell_helmet_sponsors.dds",
       "livery_overrides": [
         {
           "race_id": 9,
-          "driver1_livery": "18_tyrrell_France.dds",
-          "driver2_livery": "19_tyrrell_France.dds",
-          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\18_tyrrell_France.dds",
+          "driver2_livery": "car_liveries\\19_tyrrell_France.dds",
+          "helmet_sponsors": "helmet_sponsors\\tyrrell_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 10,
-          "driver1_livery": "18_tyrrell_NT.dds",
-          "driver2_livery": "19_tyrrell_NT.dds",
-          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\18_tyrrell_NT.dds",
+          "driver2_livery": "car_liveries\\19_tyrrell_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\tyrrell_helmet_sponsors_NT.dds"
         },
         {
           "race_id": 11,
-          "driver1_livery": "18_tyrrell_NT.dds",
-          "driver2_livery": "19_tyrrell_NT.dds",
-          "helmet_sponsors": "tyrrell_helmet_sponsors_NT.dds"
+          "driver1_livery": "car_liveries\\18_tyrrell_NT.dds",
+          "driver2_livery": "car_liveries\\19_tyrrell_NT.dds",
+          "helmet_sponsors": "helmet_sponsors\\tyrrell_helmet_sponsors_NT.dds"
         }
       ]
     },
@@ -477,10 +576,11 @@
         "replaceable": true,
         "drivernumber": 21
       },
-      "base_livery_driver1": "20_minardi.dds",
-      "base_livery_driver2": "21_minardi.dds",
-      "helmet_sponsors": "minardi_helmet_sponsors.dds",
-      "visor_sponsors": "minardi_visor_sponsors_NT.dds",
+      "driver1_livery_number": "65",
+      "driver2_livery_number": "66",
+      "base_livery_driver1": "car_liveries\\20_minardi.dds",
+      "base_livery_driver2": "car_liveries\\21_minardi.dds",
+      "visor_sponsors": "helmet_sponsors\\minardi_visor_sponsors.dds",
       "livery_overrides": []
     },
     {
@@ -509,35 +609,34 @@
         "replaceable": true,
         "drivernumber": 23
       },
-      "base_livery_driver1": "22_forti.dds",
-      "base_livery_driver2": "23_forti.dds",
-      "helmet_sponsors": "forti_helmet_sponsors.dds",
-      "visor_sponsors": "forti_visor_sponsors_NT.dds",
+      "driver1_livery_number": "67",
+      "driver2_livery_number": "68",
+      "base_livery_driver1": "car_liveries\\22_forti.dds",
+      "base_livery_driver2": "car_liveries\\23_forti.dds",
       "livery_overrides": []
     }
   ],
   "absences": [
     {
       "race_id": 1,
-      "teamId": "williams",
-      "driver_out": "hill_damon",
-      "driver_in": "fisichella_giancarlo",
-
-      "newDriverNumber": 5,
-      "chainedAbsence": {
-        "race_id": 1,
-        "teamId": "minardi",
-        "driver_out": "fisichella_giancarlo",
-        "driver_in": "marques_tarso",
-        "newDriverNumber": 21
-      }
-    },
-    {
-      "race_id": 1,
-      "teamId": "minardi",
+      "teamid": "minardi",
       "driver_out": "lamy_pedro",
       "driver_in": "lavaggi_giovanni",
       "newDriverNumber": 20
+    },
+    {
+      "race_id": 1,
+      "teamid": "williams",
+      "driver_out": "hill_damon",
+      "driver_in": "salo_mika",
+      "newDriverNumber": 5,
+      "chainedAbsence": {
+        "race_id": 1,
+        "teamid": "tyrrell",
+        "driver_out": "salo_mika",
+        "driver_in": "marques_tarso",
+        "newDriverNumber": 19
+      }
     },
     {
       "race_id": 2,

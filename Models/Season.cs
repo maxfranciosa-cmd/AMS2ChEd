@@ -21,6 +21,9 @@ namespace AMS2ChEd.Models
 
         [JsonPropertyName("absences")]
         public List<Absence> Absences { get; set; }
+
+        [JsonPropertyName("ams2Class")]
+        public string Ams2Class { get; set; }
     }
 
     public class Race
@@ -57,13 +60,19 @@ namespace AMS2ChEd.Models
         public string Ams2Car { get; set; }
 
         [JsonPropertyName("ams2carPerformanceMalus")]
-        public PerformanceMalus Ams2CarPerformanceMalus { get; set; }
+        public Dictionary<string, double> Ams2CarPerformanceMalus { get; set; }
 
         [JsonPropertyName("driver1_contract")]
         public DriverContract Driver1Contract { get; set; }
-
+        
         [JsonPropertyName("driver2_contract")]
         public DriverContract Driver2Contract { get; set; }
+
+        [JsonPropertyName("driver1_livery_number")]
+        public string Driver1LiveryNumber { get; set; }
+
+        [JsonPropertyName("driver2_livery_number")]
+        public string Driver2LiveryNumber { get; set; }
 
         [JsonPropertyName("base_livery_driver1")]
         public string BaseLiveryDriver1 { get; set; }
@@ -79,27 +88,6 @@ namespace AMS2ChEd.Models
 
         [JsonPropertyName("livery_overrides")]
         public List<LiveryOverride> LiveryOverrides { get; set; }
-    }
-
-    public class PerformanceMalus
-    {
-        [JsonPropertyName("consistency")]
-        public double Consistency { get; set; }
-
-        [JsonPropertyName("defending")]
-        public double Defending { get; set; }
-
-        [JsonPropertyName("fuel_management")]
-        public double FuelManagement { get; set; }
-
-        [JsonPropertyName("qualifying_skill")]
-        public double QualifyingSkill { get; set; }
-
-        [JsonPropertyName("race_skill")]
-        public double RaceSkill { get; set; }
-
-        [JsonPropertyName("tyre_management")]
-        public double TyreManagement { get; set; }
     }
 
     public class DriverContract

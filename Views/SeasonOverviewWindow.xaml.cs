@@ -1,6 +1,7 @@
 ﻿using AMS2ChEd.Models;
 using AMS2ChEd.Models.Enums;
 using AMS2ChEd.Services;
+using AMS2ChEd.Views;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
@@ -115,9 +116,9 @@ namespace AMS2ChEd
                 string saveName = $"{saveGame.PlayerData.Name}_{saveGame.CurrentSeason.Year}".Replace(" ", "_");
                 SaveGameService.SaveGame(saveGame, saveName);
 
-                // TODO: Navigate to GP weekend
-                System.Windows.MessageBox.Show("GP Weekend screen coming soon!", "Info",
-                    MessageBoxButton.OK, MessageBoxImage.Information);
+                // Show entry list window
+                var entryListWindow = new Views.EntryListWindow(saveGame);
+                entryListWindow.ShowDialog();
             }
             catch (Exception ex)
             {
@@ -175,19 +176,22 @@ namespace AMS2ChEd
                 currentAbsence = chainedAbsence ?? absences[i];
 
                 // Check if player can apply for this absence
-                bool playerCanApply = !playerHasSteppedIn && (currentAbsence.DriverOut != saveGame.PlayerData.DriverId);
+                bool playerCanApply = (currentAbsence.DriverOut != saveGame.PlayerData.DriverId);
 
                 if (playerCanApply)
                 {
-                    // Ask player if they want to apply
-                    var result = System.Windows.MessageBox.Show(
-                        $"Driver {GetDriverName(currentAbsence.DriverOut)} from team {GetTeamName(currentAbsence.TeamId)} is unable to participate in this race.\n\n" +
-                        $"Would you like to apply for this position?",
-                        "Substitution Opportunity",
-                        MessageBoxButton.YesNo,
-                        MessageBoxImage.Question);
+                    // Show newspaper announcement and ask player if they want to apply
+                    var gpName = saveGame.CurrentSeason.Races[saveGame.NextGpIndex].RaceName;
+                    var announcementWindow = new Views.AbsenceAnnouncementWindow(
+                        GetDriverName(currentAbsence.DriverOut),
+                        GetTeamName(currentAbsence.TeamId),
+                        gpName,
+                        GetDriverName(currentAbsence.DriverIn),
+                        askPlayerToApply: !playerHasSteppedIn
+                    );
+                    announcementWindow.Owner = this;
 
-                    if (result == MessageBoxResult.Yes)
+                    if (announcementWindow.ShowDialog() == true && announcementWindow.PlayerWantsToApply == true)
                     {
                         // Get player's current team reputation
                         var playerTeam = saveGame.CurrentSeason.Teams.FirstOrDefault(t => t.TeamId == saveGame.PlayerData.TeamId);
@@ -197,48 +201,45 @@ namespace AMS2ChEd
 
                         if (playerTeam != null && proposedTeam != null && playerTeam.Reputation >= proposedTeam.Reputation)
                         {
-                            // Player's team won't let them go
-                            System.Windows.MessageBox.Show(
-                                $"Your team ({GetTeamName(playerTeam.TeamId)}) won't let you go for this substitution.",
-                                "Request Denied",
-                                MessageBoxButton.OK,
-                                MessageBoxImage.Information);
+                            // Player's team won't let them go - show newspaper announcement
+                            var newsWindow = AbsenceAnnouncementWindow.CreateTeamRefusedWindow(
+                                GetDriverName(currentAbsence.DriverOut),
+                                GetTeamName(currentAbsence.TeamId),
+                                gpName,
+                                GetDriverName(currentAbsence.DriverIn),
+                                GetDriverName(saveGame.PlayerData.DriverId),
+                                GetTeamName(playerTeam.TeamId)
+                            );
+
+                            newsWindow.Owner = this;
+                            newsWindow.ShowDialog();
 
                             ExecuteDeclaredAbsence(entryList, currentAbsence);
 
-                            if (currentAbsence.ChainedAbsence != null)
-                            {
-                                chainedAbsence = currentAbsence.ChainedAbsence;
-                                continue;
-                            }
-                            else
-                            {
-                                i++;
-                                continue;
-                            }
+                            chainedAbsence = currentAbsence.ChainedAbsence;
+                            if (currentAbsence.ChainedAbsence == null) i++;
+                            continue;
                         }
                         else if (proposedTeam != null && proposedTeam.Reputation > TeamReputation.MINNOW &&
                                  playerReputation <= proposedDriverReputation)
                         {
-                            // Team prefers the proposed driver
-                            System.Windows.MessageBox.Show(
-                                $"Sorry, {GetTeamName(currentAbsence.TeamId)} prefers {GetDriverName(currentAbsence.DriverIn)} for this position.",
-                                "Application Rejected",
-                                MessageBoxButton.OK,
-                                MessageBoxImage.Information);
+                            // Team prefers the proposed driver - show newspaper announcement
+                            var newsWindow = AbsenceAnnouncementWindow.CreateRefusedWindow(
+                                GetDriverName(currentAbsence.DriverOut),
+                                GetTeamName(currentAbsence.TeamId),
+                                gpName,
+                                GetDriverName(currentAbsence.DriverIn),
+                                GetTeamName(playerTeam.TeamId)
+                            );
+
+                            newsWindow.Owner = this;
+                            newsWindow.ShowDialog();
 
                             ExecuteDeclaredAbsence(entryList, currentAbsence);
 
-                            if (currentAbsence.ChainedAbsence != null)
-                            {
-                                chainedAbsence = currentAbsence.ChainedAbsence;
-                                continue;
-                            }
-                            else
-                            {
-                                i++;
-                                continue;
-                            }
+                            chainedAbsence = currentAbsence.ChainedAbsence;
+                            if (currentAbsence.ChainedAbsence == null) i++;
+                            continue;
                         }
                         else
                         {
@@ -281,11 +282,16 @@ namespace AMS2ChEd
                             StepInAbsence(entryList, currentAbsence);
                             playerHasSteppedIn = true;
 
-                            System.Windows.MessageBox.Show(
-                                $"Congratulations! You will substitute for {GetDriverName(currentAbsence.DriverOut)} at {GetTeamName(currentAbsence.TeamId)} for this race!",
-                                "Application Accepted",
-                                MessageBoxButton.OK,
-                                MessageBoxImage.Information);
+                            // Show newspaper announcement of player getting the position
+                            var newsWindow = AbsenceAnnouncementWindow.CreateAcceptedWindow(
+                                GetDriverName(currentAbsence.DriverOut),
+                                GetTeamName(currentAbsence.TeamId),
+                                gpName,
+                                GetDriverName(saveGame.PlayerData.DriverId),
+                                GetTeamName(playerTeam.TeamId)
+                            );
+                            newsWindow.Owner = this;
+                            newsWindow.ShowDialog();
 
                             chainedAbsence = currentAbsence.ChainedAbsence;
                             continue;
@@ -295,26 +301,20 @@ namespace AMS2ChEd
                     {
                         // Player declined
                         ExecuteDeclaredAbsence(entryList, currentAbsence);
+                        
                         chainedAbsence = currentAbsence.ChainedAbsence;
-
-                        if (currentAbsence.ChainedAbsence == null)
-                        {
-                            i++;
-                            continue;
-                        }
+                        if (currentAbsence.ChainedAbsence == null) i++;
+                        continue;
                     }
                 }
                 else
                 {
                     // No player interaction needed, just execute the absence
                     ExecuteDeclaredAbsence(entryList, currentAbsence);
-                    chainedAbsence = currentAbsence.ChainedAbsence;
 
-                    if (currentAbsence.ChainedAbsence == null)
-                    {
-                        i++;
-                        continue;
-                    }
+                    chainedAbsence = currentAbsence.ChainedAbsence;
+                    if (currentAbsence.ChainedAbsence == null) i++;
+                    continue;
                 }
             }
         }

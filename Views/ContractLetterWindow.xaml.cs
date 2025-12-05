@@ -357,7 +357,7 @@ namespace AMS2ChEd
                 }  
             });
 
-            return seasonDrivers;
+            return seasonDrivers.Where(d => d.Ratings.Any(r => r.Season == seasonString)).ToList();
         }
 
         private List<DriverStandingEntry> InitializeDriverStandings(Season season)

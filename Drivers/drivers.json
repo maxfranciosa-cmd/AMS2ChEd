@@ -3,8 +3,8 @@
     {
       "driver_id": "schumacher_michael",
       "name": "Michael Schumacher",
-      "base_helmet_file": "Mschumacher.dds",
-      "base_visor_file": "Ferrari1.dds",
+      "base_helmet_file": "schumacher.dds",
+      "base_visor_file": "schumacher_visor.dds",
       "nationality": "DEU",
       "ratings": [
         {
@@ -60,7 +60,7 @@
       "driver_id": "villeneuve_jacques",
       "name": "Jacques Villeneuve",
       "base_helmet_file": "villeneuve.dds",
-      "base_visor_file": "Williams.dds",
+      "base_visor_file": "villeneuve_visor.dds",
       "nationality": "CAN",
       "ratings": [
         {
@@ -89,7 +89,7 @@
       "driver_id": "alesi_jean",
       "name": "Jean Alesi",
       "base_helmet_file": "alesi.dds",
-      "base_visor_file": "benetton3.dds",
+      "base_visor_file": "alesi_visor.dds",
       "nationality": "FRA",
       "ratings": [
         {
@@ -118,7 +118,7 @@
       "driver_id": "berger_gerhard",
       "name": "Gerhard Berger",
       "base_helmet_file": "berger.dds",
-      "base_visor_file": "benetton4.dds",
+      "base_visor_file": "berger_visor.dds",
       "nationality": "AUT",
       "ratings": [
         {
@@ -147,7 +147,7 @@
       "driver_id": "hakkinen_mika",
       "name": "Mika Häkkinen",
       "base_helmet_file": "hakkinen.dds",
-      "base_visor_file": "mclaren.dds",
+      "base_visor_file": "hakkinen_visor.dds",
       "nationality": "FIN",
       "ratings": [
         {
@@ -176,7 +176,7 @@
       "driver_id": "coulthard_david",
       "name": "David Coulthard",
       "base_helmet_file": "coulthard.dds",
-      "base_visor_file": "mclaren.dds",
+      "base_visor_file": "coulthard_visor.dds",
       "nationality": "GBR",
       "ratings": [
         {
@@ -205,7 +205,7 @@
       "driver_id": "hill_damon",
       "name": "Damon Hill",
       "base_helmet_file": "hill.dds",
-      "base_visor_file": "williams.dds",
+      "base_visor_file": "hill_visor.dds",
       "nationality": "GBR",
       "ratings": [
         {
@@ -233,8 +233,8 @@
     {
       "driver_id": "frenzen_heinz_harald",
       "name": "Heinz-Harald Frentzen",
-      "base_helmet_file": "frenzen.dds",
-      "base_visor_file": "sauber.dds",
+      "base_helmet_file": "frentzen.dds",
+      "base_visor_file": "frentzen_visor.dds",
       "nationality": "DEU",
       "ratings": [
         {
@@ -263,7 +263,7 @@
       "driver_id": "barrichello_rubens",
       "name": "Rubens Barrichello",
       "base_helmet_file": "barrichello.dds",
-      "base_visor_file": "jordan.dds",
+      "base_visor_file": "barrichello_visor.dds",
       "nationality": "BRA",
       "ratings": [
         {
@@ -292,7 +292,7 @@
       "driver_id": "brundle_martin",
       "name": "Martin Brundle",
       "base_helmet_file": "brundle.dds",
-      "base_visor_file": "jordan.dds",
+      "base_visor_file": "brundle_visor.dds",
       "nationality": "GBR",
       "ratings": [
         {
@@ -321,7 +321,7 @@
       "driver_id": "irvine_eddie",
       "name": "Eddie Irvine",
       "base_helmet_file": "irvine.dds",
-      "base_visor_file": "ferrari2.dds",
+      "base_visor_file": "irvine_visor.dds",
       "nationality": "GBR",
       "ratings": [
         {
@@ -350,7 +350,7 @@
       "driver_id": "herbert_johnny",
       "name": "Johnny Herbert",
       "base_helmet_file": "herbert.dds",
-      "base_visor_file": "sauber.dds",
+      "base_visor_file": "herbert_visor.dds",
       "nationality": "GBR",
       "ratings": [
         {
@@ -379,7 +379,7 @@
       "driver_id": "panis_olivier",
       "name": "Olivier Panis",
       "base_helmet_file": "panis.dds",
-      "base_visor_file": "ligier.dds",
+      "base_visor_file": "panis_visor.dds",
       "nationality": "FRA",
       "ratings": [
         {
@@ -408,7 +408,7 @@
       "driver_id": "lamy_pedro",
       "name": "Pedro Lamy",
       "base_helmet_file": "lamy.dds",
-      "base_visor_file": "minardi.dds",
+      "base_visor_file": "lamy_visor.dds",
       "nationality": "PRT",
       "ratings": [
         {
@@ -437,7 +437,7 @@
       "driver_id": "badoer_luca",
       "name": "Luca Badoer",
       "base_helmet_file": "badoer.dds",
-      "base_visor_file": "forti22.dds",
+      "base_visor_file": "badoer_visor.dds",
       "nationality": "ITA",
       "ratings": [
         {
@@ -466,7 +466,7 @@
       "driver_id": "fisichella_giancarlo",
       "name": "Giancarlo Fisichella",
       "base_helmet_file": "fisichella.dds",
-      "base_visor_file": "minardi.dds",
+      "base_visor_file": "fisichella_visor.dds",
       "nationality": "ITA",
       "ratings": [
         {
@@ -495,7 +495,7 @@
       "driver_id": "salo_mika",
       "name": "Mika Salo",
       "base_helmet_file": "salo.dds",
-      "base_visor_file": "tyrrell19.dds",
+      "base_visor_file": "salo_visor.dds",
       "nationality": "FIN",
       "ratings": [
         {
@@ -524,7 +524,7 @@
       "driver_id": "katayama_ukyo",
       "name": "Ukyo Katayama",
       "base_helmet_file": "katayama.dds",
-      "base_visor_file": "tyrrell18.dds",
+      "base_visor_file": "katayama_visor.dds",
       "nationality": "JPN",
       "ratings": [
         {
@@ -553,7 +553,7 @@
       "driver_id": "diniz_pedro",
       "name": "Pedro Diniz",
       "base_helmet_file": "diniz.dds",
-      "base_visor_file": "ligier.dds",
+      "base_visor_file": "diniz_visor.dds",
       "nationality": "BRA",
       "ratings": [
         {
@@ -582,7 +582,7 @@
       "driver_id": "montermini_andrea",
       "name": "Andrea Montermini",
       "base_helmet_file": "montermini.dds",
-      "base_visor_file": "forti23.dds",
+      "base_visor_file": "montermini_visor.dds",
       "nationality": "ITA",
       "ratings": [
         {
@@ -611,7 +611,7 @@
       "driver_id": "rosset_ricardo",
       "name": "Ricardo Rosset",
       "base_helmet_file": "rosset.dds",
-      "base_visor_file": "footwork16.dds",
+      "base_visor_file": "rosset_visor.dds",
       "nationality": "BRA",
       "ratings": [
         {
@@ -640,7 +640,7 @@
       "driver_id": "verstappen_jos",
       "name": "Jos Verstappen",
       "base_helmet_file": "verstappen.dds",
-      "base_visor_file": "footwork17.dds",
+      "base_visor_file": "verstappen_visor.dds",
       "nationality": "NLD",
       "ratings": [
         {
@@ -669,7 +669,7 @@
       "driver_id": "lavaggi_giovanni",
       "name": "Giovanni Lavaggi",
       "base_helmet_file": "lavaggi.dds",
-      "base_visor_file": "minardi.dds",
+      "base_visor_file": "lavaggi_visor.dds",
       "nationality": "ITA",
       "ratings": [
         {
@@ -834,7 +834,7 @@
       "driver_id": "marques_tarso",
       "name": "Tarso Marques",
       "base_helmet_file": "marques.dds",
-      "base_visor_file": "minardi.dds",
+      "base_visor_file": "marques_visor.dds",
       "nationality": "BRA",
       "ratings": [
         {

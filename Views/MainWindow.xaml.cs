@@ -123,6 +123,10 @@ namespace AMS2ChEd
         {
             System.Windows.MessageBox.Show("Load Game feature coming soon!", "Load Game",
                 MessageBoxButton.OK, MessageBoxImage.Information);
+
+            var optionsWindow = new LiveryGeneratorWindow();
+            optionsWindow.Owner = this;
+            optionsWindow.ShowDialog();
         }
 
         private void OptionsButton_Click(object sender, RoutedEventArgs e)

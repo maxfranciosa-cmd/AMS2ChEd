@@ -76,6 +76,12 @@ namespace AMS2ChEd.Models
 
         [JsonPropertyName("teamid")]
         public string TeamId { get; set; }
+
+        [JsonPropertyName("base_helmet_file")]
+        public string BaseHelmetFile { get; set; }
+
+        [JsonPropertyName("base_visor_file")]
+        public string BaseVisorFile { get; set; }
     }
 
     public class GrandPrixResult
